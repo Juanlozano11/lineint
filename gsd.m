@@ -6,7 +6,7 @@ figure;
 clf;
 
 % Create a meshgrid for x and y
-[x, y] = meshgrid(linspace(-2, 2, 20), linspace(0, 1, 50));
+[x, y] = meshgrid(linspace(-2, 2, 100), linspace(0, 1, 100));
 
 % Calculate the corresponding z values using the 3D function
 z = g(x, y);
