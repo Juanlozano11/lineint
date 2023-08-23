@@ -1,4 +1,4 @@
-function result = riemann(func, a, b, num_intervals)
+function result = riemanngsgsd(func, a, b, num_intervals)
     % Riemann approximation of an integral using the midpoint method
     
     % Calculate the width of each interval
