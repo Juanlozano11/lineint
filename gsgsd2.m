@@ -40,9 +40,8 @@ b = 0.5; % Change this value as needed
 diagonal_line = a * s;
 plot3(s, diagonal_line, g, 'ro', 'MarkerFaceColor', 'r', 'LineWidth', 0.4);
 
-
-% Plot the line itself
-plot3(s, diagonal_line, zeros(size(s)), 'k.', 'MarkerSize', 10);
+% Plot the shadow of the line on the x-y plane
+plot3(s, diagonal_line, zeros(size(s)), 'ko', 'MarkerSize', 6); 
 
 % Add lighting using 'infinite' style and set the intensity
 light = camlight('infinite');
