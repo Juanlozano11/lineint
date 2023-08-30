@@ -28,5 +28,3 @@ legend('Data points');  % Add a legend to the plot
 
 % Prevent the plot from ending
 hold on;
-
-

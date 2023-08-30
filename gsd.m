@@ -19,4 +19,3 @@ xlabel('x');
 ylabel('y');
 zlabel('g(s)');
 title('3D Plot of g(s) = exp(-x^2 - y^2)');
-

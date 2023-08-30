@@ -1,6 +1,5 @@
 % This creates two grapghs that show an initial condition set * 's'
 
-
 num_points = 10;
 theta = linspace(0, 100, num_points);
 

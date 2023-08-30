@@ -1,4 +1,3 @@
-
 % This is a driver function that generates a graph that confirms that a.^2 + b.^ = 1
 % For the normalized method
 
