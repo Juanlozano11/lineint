@@ -1,4 +1,4 @@
-% This is  riemann driver file
+% This is the riemann driver file
 
 % Define the function
 g = @(s) exp(-(s).^2);

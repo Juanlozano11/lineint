@@ -7,11 +7,11 @@ function s = riemann(g, a, b, n)
 
     % Evaluate the function at the right endpoints
     x = a + delta_x : delta_x : b;
-   
+
     % Evaluates the function f at each of the right-hand endpoints
-    %contained in the array x and stores the resulting values in the array y.
+    % contained in the array x and stores the resulting values in the array y.
     y = arrayfun(g, x);
-   
+
     % Calculate the Riemann sum
     s = sum(y) * delta_x;
 end
