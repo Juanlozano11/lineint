@@ -1,6 +1,6 @@
-function errors = simpson_error(a, b, max_n)
+function errors = trapezoid_error(a, b, max_n)
     % This function returns the error between the actual value of the integral
-    % and the Riemann sum approximation for a range of subdivisions up to max_n.
+    % and the trapezoidal approximation for a range of subdivisions up to max_n.
 
     % Actual value of the integral
     actual_value = (sqrt(pi)/2) * erf(1);
@@ -13,7 +13,7 @@ function errors = simpson_error(a, b, max_n)
 
     % Loop through subdivisions and compute the error
     for n = 1:max_n
-        approximation = simpson(g, a, b, n);
+        approximation = trapezoid(g, a, b, n);
         errors(n) = actual_value - approximation;
     end
 end

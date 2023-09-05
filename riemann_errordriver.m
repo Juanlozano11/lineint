@@ -1,5 +1,3 @@
-% This is the riemann_error driver script
-
 % Define the interval and max subdivisions
 a = 0;
 b = 1;
