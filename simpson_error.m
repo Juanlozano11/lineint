@@ -2,7 +2,7 @@ function errors = simpson_error(a, b, max_n)
     % This function returns the error between the actual value of the integral
     % and the Riemann sum approximation for a range of subdivisions up to max_n.
 
-    % Actual value of the integral
+    % Actual value of the integral:
     actual_value = (sqrt(pi)/2) * erf(1);
 
     % Vector to store errors:
