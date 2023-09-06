@@ -11,7 +11,7 @@ function errors = simpson_error(a, b, max_n)
     % Define the function
     g = @(s) exp(-s.^2);
 
-    % Loop through subdivisions and compute the error
+    % Loop through subdivisions and compute the error:
     for n = 1:max_n
         approximation = simpson(g, a, b, n);
         errors(n) = actual_value - approximation;
