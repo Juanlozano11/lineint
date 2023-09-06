@@ -5,7 +5,7 @@ function errors = simpson_error(a, b, max_n)
     % Actual value of the integral
     actual_value = (sqrt(pi)/2) * erf(1);
 
-    % Vector to store errors
+    % Vector to store errors:
     errors = zeros(1, max_n);
 
     % Define the function
