@@ -11,7 +11,6 @@ theta = linspace(0, 100, num_points);
 
 % Calculate y using the generated values of a and b
 y_values = y(a, b);
-
 % Plot the values of y against theta
 plot(theta, y_values - 1 , 'o');
 xlabel('Theta');
